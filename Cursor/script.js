@@ -34,6 +34,7 @@ window.addEventListener('mousemove', (event) => {
         cursorOuter.style.height = cHeight
         cursorOuter.style.borderRadius = cBorderRadius
 
+        cursorOuter.style.margin=cMargin;
     }
 })
 
