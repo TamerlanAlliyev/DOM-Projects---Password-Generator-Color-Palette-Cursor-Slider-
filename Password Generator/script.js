@@ -1,3 +1,6 @@
+//   ƏLAVƏLƏR  -> Modal "Esc" düyməsi click olunduqda bağlanır
+
+
 'use strict';
 
 // Data
@@ -136,22 +139,6 @@ copyBtn.addEventListener('click', (event) => {
         modalMessage.textContent = `There is nothing to copy`
     }
 });
-
-/* 
-modalBtn.addEventListener('click', (event) => {
-    event.preventDefault();
-
-    backdrop.classList.remove("active")
-    modal.classList.remove("active")
-});
-
-backdrop.addEventListener('click', (event) => {
-    event.preventDefault();
-
-    backdrop.classList.remove("active")
-    modal.classList.remove("active")
-});
-*/
 
 const closeModal = () => {
     backdrop.classList.remove("active");
